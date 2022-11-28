@@ -2,7 +2,7 @@
   "stack": "Stack",
   "binary_search": "Binary Search",
   "bubble_sort": "Bubble Sort",
-  "dijkstras_algorithm": "Dijkstras Algorithm",
+  "dijkstras_algorithm": "Dijkstra's Algorithm",
   "linear_search": "Linear Search",
   "linked_list": "Linked List",
   "selection_sort": "Selection Sort"
