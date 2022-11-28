@@ -1,7 +1,7 @@
 export default {
-  github: 'https://github.com/shuding/nextra',
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
-  titleSuffix: ' – Nextra',
+  github: 'https://github.com/Chandra-Mauli-Sharma/vLab3D',
+  docsRepositoryBase: 'https://github.com/Chandra-Mauli-Sharma/vLab3D/blob/main',
+  titleSuffix: ' – vLab3D',
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">vLab3D</span>
@@ -62,6 +62,6 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>,
+  footerText: <>IIIT Sonepat {new Date().getFullYear()} © vLab3D.</>,
   unstable_faviconGlyph: '👋',
 }
