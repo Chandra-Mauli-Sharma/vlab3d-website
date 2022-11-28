@@ -1,0 +1,32 @@
+# Dijkstra’s Algorithm
+
+**Dijkstra’s Algorithm** is used for shortest paths from the source to all vertices in the given graph. Works only for non negative edges.
+
+## Procedure
+
+```mdx
+1. Create a set sptSet (shortest path tree set) that keeps track of vertices included in the shortest-path tree, i.e., whose minimum distance from the source is calculated and finalized. Initially, this set is empty.
+2. Assign a distance value to all vertices in the input graph. Initialize all distance values as INFINITE. Assign the distance value as 0 for the source vertex so that it is picked first.
+3. While sptSet doesn’t include all vertices
+   - Pick a vertex u which is not there in sptSet and has a minimum distance value.
+   - Include u to sptSet.
+   - Then update distance value of all adjacent vertices of u.
+     a) To update the distance values, iterate through all adjacent vertices.
+     b) For every adjacent vertex v, if the sum of the distance value of u (from source) and weight of edge u-v, is less than the distance value of v, then update the distance value of v.
+```
+
+## Try yourself
+
+<Bleed>
+  <iframe
+    frameborder="0"
+    src="https://itch.io/embed-upload/6905266?color=333333"
+    allowfullscreen=""
+    width="640"
+    height="380"
+  >
+    <a href="https://chandra-mauli-sharma.itch.io/stack">
+      Play Stack on itch.io
+    </a>
+  </iframe>
+</Bleed>

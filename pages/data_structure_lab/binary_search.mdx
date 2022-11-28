@@ -1,12 +1,26 @@
-# Stack
+# Binary Search
 
-In a **Stack**, the element deleted from the set is the one most recently inserted: the stack implements a last-in, first-out,or LIFO, policy.
+**Binary Search** is a searching algorithm for finding an element's position in a sorted array.
 
-## Operation
+## Condition
 
-The _INSERT_ operation on a stack is often called _PUSH_, and the _DELETE_ operation, which does not take an element argument, is often called _POP_.
+Binary search can be implemented only on a sorted list of items. If the elements are not sorted already, we need to sort them first.
 
-These names are allusions to physical stacks, such as the spring-loaded stacks of plates used in cafeterias. The order in which plates are popped from the stack is the reverse of the order in which they were pushed onto the stack, since only the top plate is accessible.
+## Algorithm
+
+```mdx
+binarySearch(arr, x, low, high)
+if low > high
+return False
+else
+mid = (low + high) / 2
+if x == arr[mid]
+return mid
+else if x > arr[mid] // x is on the right side
+return binarySearch(arr, x, mid + 1, high)
+else // x is on the right side
+return binarySearch(arr, x, low, mid - 1)
+```
 
 ## Try yourself
 
