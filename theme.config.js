@@ -63,5 +63,5 @@ export default {
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
   footerText: <>IIIT Sonepat {new Date().getFullYear()} © vLab3D.</>,
-  unstable_faviconGlyph: '👋',
+  unstable_faviconGlyph: '👨‍💻',
 }
