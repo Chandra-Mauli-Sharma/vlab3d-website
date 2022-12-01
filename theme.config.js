@@ -1,6 +1,6 @@
 export default {
   github: 'https://github.com/Chandra-Mauli-Sharma/vLab3D',
-  docsRepositoryBase: 'https://github.com/Chandra-Mauli-Sharma/vLab3D/blob/main',
+  docsRepositoryBase: 'https://github.com/Chandra-Mauli-Sharma/vlab3d-website/blob/main',
   titleSuffix: ' – vLab3D',
   logo: (
     <>
